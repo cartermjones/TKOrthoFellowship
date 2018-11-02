@@ -1,0 +1,124 @@
+/*--STRUCTURE SECTION---*/
+body {
+	background-color: beige;
+}
+
+header {
+	text-align: center;
+	padding: 10px;
+	position: relative;
+}
+
+nav {
+	text-align: center;
+}
+
+a {
+	padding: 5px;
+}
+
+main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+}
+
+footer {
+	text-align: center;
+	font-style: italic;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	clear: both;
+	margin: 0;
+	margin-top: 20px;
+	background-color: white;
+}
+
+/*--- JUMBOTRON & BUTTON STYLING----*/
+
+.jumbotron {
+	background-image: url("holyapostles_icon.gif");
+	background-repeat: no-repeat;
+	background-size: fill;
+	color: white;
+	height: 550px;
+}
+
+#about-jumbotron {
+	background-image: url("christ22.jpg");
+	height: 400px;
+	background-position: center top;
+	background-size: stretch;
+}
+
+#central h1 {
+	font-family: Roboto, sans-serif;
+	color: white;
+}
+
+.button {
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4;
+	background-color: Transparent;
+	border: 2px solid gold;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: inline-block;
+	cursor: pointer;
+	overflow: hidden;
+	font-size: 30px;
+}
+
+.button:hover {
+	background-color: gold;
+	color: white;
+}
+
+.parallax {
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*---IMAGE STYLING---*/
+img.logo {
+	max-width: 100%;
+	height: auto;
+}
+
+img.icon {
+	height: 300px;
+}
+
+img.resource {
+	height: 150px;
+}
+
+.sideleft {
+	float: left;
+	margin-right:20px;
+}
+
+/*---OTHER STYLING---*/
+#calendar {
+	margin-bottom: 50px;
+}
+
+.unimplemented {
+	display: none;
+}
+
+#antioch {
+	background-color: maroon;
+}
+
+.thumbnail {
+	border-style: none;
+}
